@@ -1,0 +1,33 @@
+{
+  "generationParameters": {
+    "generationDate": "Tue Apr 07 2026 16:47:19 GMT+0530 (India Standard Time)",
+    "generatorPlatform": "Visual Studio Code",
+    "serviceType": "SAP System (ABAP On-Premise)",
+    "metadataFilename": "",
+    "serviceUrl": "https://vhostpd5.awscloud.msg.de:8443/sap/opu/odata4/alice/zf_360view_uiv4/srvd/alice/zf_360view/0001/",
+    "appName": "partner360_v4",
+    "appTitle": "Partner 360 Overview",
+    "appDescription": "Partner 360 application for viewing complete business partner data",
+    "appNamespace": "yey.partner360_ui",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.136.14",
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.20.4",
+    "template": "List Report Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "Root"
+      },
+      {
+        "type": "Navigation Entity",
+        "value": "_Addresses"
+      }
+    ],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```",
+    "valueHelpDownloaded": true
+  }
+}

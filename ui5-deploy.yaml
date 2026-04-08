@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "4.0"
+metadata:
+  name: yey.partner360ui.partner360v4
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: https://vhostpd5.awscloud.msg.de:8443
+          client: '900'
+        app:
+          name: /ALUI/ZF_360VIEW_UIV4
+          description: Partner 360 Fiori Application
+          package: /ALICE/ZF
+          transport: PD5K901149
+        exclude:
+          - /test/
